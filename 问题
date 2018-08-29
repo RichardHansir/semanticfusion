@@ -1,0 +1,21 @@
+[100%] Linking CXX executable SemanticFusion
+/usr/local/lib/libccolamd.a(ccolamd.c.o)：在函数‘ccolamd_report’中：
+ccolamd.c:(.text+0x31a)：对‘SuiteSparse_config’未定义的引用
+/usr/local/lib/libccolamd.a(ccolamd.c.o)：在函数‘csymamd_report’中：
+ccolamd.c:(.text+0x68a)：对‘SuiteSparse_config’未定义的引用
+elasticfusionpublic/Core/src/libefusion.so：对‘SuiteSparse_realloc’未定义的引用
+elasticfusionpublic/Core/src/libefusion.so：对‘SuiteSparse_free’未定义的引用
+elasticfusionpublic/Core/src/libefusion.so：对‘SuiteSparse_time’未定义的引用
+elasticfusionpublic/Core/src/libefusion.so：对‘SuiteSparse_calloc’未定义的引用
+elasticfusionpublic/Core/src/libefusion.so：对‘SuiteSparse_malloc’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/SemanticFusion.dir/build.make:457: recipe for target 'SemanticFusion' failed
+make[2]: *** [SemanticFusion] Error 1
+CMakeFiles/Makefile2:107: recipe for target 'CMakeFiles/SemanticFusion.dir/all' failed
+make[1]: *** [CMakeFiles/SemanticFusion.dir/all] Error 2
+Makefile:127: recipe for target 'all' failed
+make: *** [all] Error 2
+
+
+
+
